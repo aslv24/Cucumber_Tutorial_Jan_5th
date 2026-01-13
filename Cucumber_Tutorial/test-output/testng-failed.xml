@@ -6,8 +6,9 @@
       <class name="com.ct.runner.LoginRun">
         <methods>
           <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="2 3 4"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="2"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- com.ct.runner.LoginRun -->
     </classes>
