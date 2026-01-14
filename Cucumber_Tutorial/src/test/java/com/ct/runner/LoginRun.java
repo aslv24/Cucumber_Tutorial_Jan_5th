@@ -18,7 +18,8 @@ import io.cucumber.testng.CucumberOptions.SnippetType;
 		tags = "@qa",
 		plugin = {
 				"pretty",
-				"html:reports/index.html"
+				"html:reports/index.html",
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 		}
 		
 		)
